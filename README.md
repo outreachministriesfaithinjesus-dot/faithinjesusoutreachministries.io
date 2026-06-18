@@ -392,6 +392,186 @@ Without Faith It Is Impossible to Please God
 <a class="whatsapp" href="#">
 💬
 </a>
-
+:root{
+--primary:#4FC3F7;      /* Sky Blue */
+--secondary:#E3F2FD;    /* Light Sky */
+--dark:#1565C0;         /* Deep Blue */
+--white:#FFFFFF;
+--accent:#81D4FA;
+}
 </body>
 </html>
+<section class="hero">
+    <div class="overlay">
+        <img src="church-logo.jpg" class="logo">
+
+        <h1>
+            Faith in Jesus Outreach Ministries
+        </h1>
+
+        <h3>
+            Sierra Leone
+        </h3>
+
+        <p>
+            "Without Faith It Is Impossible to Please God"
+            Hebrews 11:6
+        </p>
+
+        <a href="#about" class="btn">
+            Join Us In Worship
+        </a>
+    </div>
+</section>
+.hero{
+height:100vh;
+background:
+linear-gradient(
+rgba(79,195,247,.70),
+rgba(227,242,253,.80)),
+url('https://images.unsplash.com/photo-1534088568595-a066f410bcda');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+max-width:900px;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+font-weight:700;
+text-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+.hero p{
+font-size:1.3rem;
+margin-top:20px;
+}
+header{
+background:white;
+backdrop-filter:blur(10px);
+box-shadow:0 2px 20px rgba(0,0,0,.08);
+}
+
+nav a{
+color:#1565C0;
+font-weight:600;
+}
+
+nav a:hover{
+color:#4FC3F7;
+}
+.vision-card{
+background:white;
+border-left:6px solid #4FC3F7;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+.ministry-card{
+background:white;
+border-radius:20px;
+padding:30px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.ministry-card:hover{
+transform:translateY(-10px);
+}
+<section class="scripture">
+    <h2>
+        Hebrews 11:6
+    </h2>
+
+    <p>
+        Without faith it is impossible to please God.
+    </p>
+</section>
+.scripture{
+background:#4FC3F7;
+color:white;
+padding:80px;
+text-align:center;
+}
+footer{
+background:#1565C0;
+color:white;
+padding:60px;
+text-align:center;
+}
+<img src="church-logo.jpg" class="logo">
+<img src="church-logo.jpg(1).jpeg" class="logo" alt="Faith in Jesus Outreach Ministries Logo">
+.logo{
+width:280px;
+max-width:90%;
+height:auto;
+margin-bottom:30px;
+filter:drop-shadow(0 10px 25px rgba(79,195,247,.4));
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0px);}
+}
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<img src="church-logo.jpg(1).jpeg"
+class="logo"
+alt="Faith in Jesus Outreach Ministries Logo">
+
+<h1>
+Faith in Jesus Outreach Ministries
+</h1>
+
+<h2>
+Sierra Leone
+</h2>
+
+<p class="motto">
+"Without Faith It Is Impossible To Please God"
+<br>
+Hebrews 11:6
+</p>
+
+<a href="#about" class="btn">
+Join Us In Worship
+</a>
+
+</div>
+
+</section>
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+
+background:
+linear-gradient(
+135deg,
+rgba(135,206,235,.95),
+rgba(255,255,255,.95)
+);
+
+position:relative;
+overflow:hidden;
+}
+index.html
+church-logo.jpg(1).jpeg
+README.md
+church-logo.jpeg
+<img src="church-logo.jpeg" alt="Church Logo">
